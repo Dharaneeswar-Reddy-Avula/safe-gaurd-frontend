@@ -6,7 +6,7 @@ import Friend from '../assets/friend.svg';
 
 export const Chatbot = () => {
   return (
-    <div className='flex justify-between flex-wrap'>
+    <div className='flex md:justify-between flex-wrap justify-center'>
         <Card image={Brother}/>
         <Card image={Father}/>
         <Card image={Mother}/>
